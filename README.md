@@ -3,13 +3,17 @@
 
 This project includes all R codes for machine learning analysis of antimicrobial toxin genes (ATGs).
 
+Please place these files in a folder named `antimicrobial_toxin` and set default working directory of R to the previous level of the `antimicrobial_toxin`. For example, if the path of `antimicrobial_toxin` is `a/b/c/antimicrobial_toxin`, execute the command `setwd(dir = "a/b/c/")` in R.
+
 ## Detailed description
 
--   `rf_cluster.R`: R codes for machine learning analysis of `ATG cluster diversity`.
+R codes involve four processes of machine learning: feature selection, hyperparameter tuning, model test, and modelling.
 
--   `rf_family.R`: R codes for machine learning analysis of `ATG family diversity`.
+-   Folder `rf_cluster`: R codes used for predicting the global distribution of `ATG cluster diversity`.
 
--   `rf_abundance.R`: R codes for machine learning analysis of `ATG abundance`.
+-   Folder `rf_family`: R codes used for predicting the global distribution of `ATG family diversity`.
+
+-   Folder `rf_abundance`: R codes used for predicting the global distribution of `ATG abundance`.
 
 -   `train_new.csv`: The dataset used for machine learning.
 
