@@ -7,7 +7,7 @@ Please place these files in a folder named `antimicrobial_toxin` and set default
 
 ## Detailed description
 
-R codes involve four processes of machine learning: feature selection, hyperparameter tuning, model test, and modelling.
+R codes involve four processes of machine learning: feature selection, hyperparameter tuning, test model, and modelling.
 
 -   Folder `rf_cluster`: R codes used for predicting the global distribution of `ATG cluster diversity`.
 
